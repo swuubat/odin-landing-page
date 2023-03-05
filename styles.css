@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: navy;
+    color: white;
+    display: flex;
+    margin: -10px;
+    padding: 10px;
+}
+.link{
+    color: white;
+    justify-content: right;
+    padding: 10px;
+    flex: initial;
+}
+.intro-container{
+    background-color: navy;
+    color: white;
+    margin: -10px;
+    padding: 20px;
+    display: flex;
+}
+button{
+    background-color:blue;
+    color:white;
+}
+.intro-text{
+    flex:1;
+}
+.intro-image{
+    flex:1;
+    border: 4px white;
+}
+.random-info-container{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    padding: 25px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
